@@ -1,0 +1,5 @@
+admin_email: hoangtua.vn@gmail.com
+host: demo.webfaver.com
+service:
+  name: nginx-hello 
+  port: 80
