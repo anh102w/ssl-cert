@@ -1,25 +1,12 @@
-# ambassador-ssl
-Helm chart to Install Let's Encrypt certificate for Ambassador in your Kubernetes cluster
+# Helm Charts from nhtua
+Hi, I'm a DevOps engineer. I created this repository to keep my K8s recipe. It basically serves for many tutorials I made on [my Youtube channel](https://www.youtube.com/channel/UC64HFdJWvwuNt2ruywWvF-w).
 
-Run commands:
-
-```
-$ helm repo add nhtua https://raw.githubusercontent.com/nhtua/ambassador-ssl/master/
-$ helm show values nhtua/ambassador-ssl > values.yaml
-```
-
-You need to update configurations in values.yaml
+But you're free to use and contribute all Helm charts here. Add this repo to your Helm command.
 
 ```
-admin_email: your_email@gmail.com
-host: your-website.com
-service:
-  # name of your service run in k8s.
-  name: my-app-service
-  port: 80
+$ helm repo add nhtua https://raw.githubusercontent.com/nhtua/charts/master/
+
+$ helm search repo nhtua
 ```
 
-Finally, install Let's Encrypt certificate by
-```
-$ helm install mywebsite-ssl nhtua/ambassador-ssl -f values.yaml
-```
+After add repo to Helm, you can start to install chart from this repository.
