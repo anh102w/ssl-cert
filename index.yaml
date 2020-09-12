@@ -9,6 +9,6 @@ entries:
     name: ambassador-ssl
     type: application
     urls:
-    - https://github.com/nhtua/ambassador-ssl.git/releases/ambassador-ssl-0.1.0.tgz
+    - https://raw.githubusercontent.com/nhtua/ambassador-ssl/master/releases/ambassador-ssl-0.1.0.tgz
     version: 0.1.0
 generated: "2020-09-12T12:46:18.090824334Z"
